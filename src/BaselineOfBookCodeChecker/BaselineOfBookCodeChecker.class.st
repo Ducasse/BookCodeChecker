@@ -17,12 +17,12 @@ I am the Metacello baseline of the book code checker, the tool that compares the
 - `baseline: spec`
 - groups: `Core`, `Tests`, `default`
 
-Load from the repository holding the packages (replace the location with yours):
+Load it with:
 
 ```
 Metacello new
 	baseline: 'BookCodeChecker';
-	repository: 'github://owner/repository:branch/src';
+	repository: 'github://Ducasse/BookCodeChecker:master/src';
 	load: #( 'Core' )
 ```
 
